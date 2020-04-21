@@ -23,7 +23,6 @@ var maxDepth = function(root) {
             cur.right && queue.unshift(cur.right);
         }
         level++;
-
     }
     return level;
 };
